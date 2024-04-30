@@ -1,0 +1,148 @@
+.collender{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 330px;
+  border-radius: 50px;
+  border: none;
+  background: #E0E5EC;
+  box-shadow: inset 0 1px 4px hsla(0,0%,0%,.5),
+                inset 0 0 10px hsla(0,0%,0%,.5),
+                0 0 0 1px hsla(0,0%,0%,.1),
+                0 -1px 2px 2px hsla(0,0%,0%,.25),
+                0 2px 2px 2px hsla(0,0%,100%,.75);
+}
+.tempvalprogress{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background: url(./tempscale.svg);
+  height: 190px;
+  box-shadow: inset 0 1px 4px hsla(0,0%,0%,.5),
+              inset 0 0 10px hsla(0,0%,0%,.5),
+              0 0 0 1px hsla(0,0%,0%,.1),
+              0 -1px 2px 2px hsla(0,0%,0%,.25),
+              0 2px 2px 2px hsla(0,0%,100%,.75);
+
+  width: 20px;
+  border-radius: 50px;
+  
+  background-color:transparent;
+}
+.tempprogval{
+  max-height: 180px;
+  height: 1200px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.353);
+  
+}
+.weather-details{
+  display: flex;
+  height: 85px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  
+}
+.weathericon{
+  height: 50px;
+  width: 50px;
+}
+.location{
+  height: 85px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  overflow: hidden;
+}
+.loc1{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 100%;
+
+}
+.loc2{
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.wind{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  justify-content: space-evenly;
+
+
+}
+.humidity{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+
+}
+
+.val {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+}
+
+.collender-header {
+  background: #8089FE;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  align-items: center;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 5px; /* Reduced padding */
+}
+
+.day-text-formate {
+  font-family: Microsoft JhengHei UI;
+  font-size: 0.8rem; /* Adjusted font size */
+  padding-right: 5%;
+  border-right: 2px solid #9796f0; /* Adjusted border size */
+}
+
+.date-time-value {
+  text-align: center;
+}
+
+.time-formate, .date-formate {
+  font-size: 0.9rem; /* Adjusted font size */
+}
+
+
+@media only screen and (max-width: 768px) {
+  .collender {
+    display: none;
+  }
+}

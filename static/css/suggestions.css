@@ -1,0 +1,28 @@
+.dropdown-options {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 63.62%;
+    z-index: 1000;
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #d6d6d6ef;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+}   
+.dropdown-options li {
+  width: 400px;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+.dropdown-options li:hover {
+  background-color: #171717;
+  color: #ebebeb;
+  
+}
